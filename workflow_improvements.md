@@ -1,3 +1,4 @@
+# Proposed improved workflow
 ```mermaid
 
 sequenceDiagram
@@ -13,6 +14,6 @@ sequenceDiagram
     WeldPlanningAgent->>WeldPlanningAgent: construct_planning_response_from_task_plan(task_plan)
     WeldPlanningAgent->>WorkflowEngine: planning_response
 ```
-Notes:
+### Notes:
 - We can reuse some of the classes built for SIL
 - We would still need to figure out the message sent between the WorkflowEngine and the WeldPlanningAgent
